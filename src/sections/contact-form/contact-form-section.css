@@ -1,0 +1,17 @@
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 2.5rem 3rem 30rem;
+}
+
+.contact-form__logo {
+  width: 24rem;
+}
+
+.contact-form__button-offset {
+  width: 40%;
+  text-align: left;
+}

@@ -1,0 +1,17 @@
+.button {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-family: Archivo-Regular;
+  border-radius: 2px;
+  width: 18rem;
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.button-orange {
+  background-color: #ee5f20;
+  color: white;
+}

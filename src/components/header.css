@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  width: 22rem;
+  margin: 0 50rem;
+}
+
+ion-icon {
+  color: #cdc7c3;
+  font-size: 24px;
+  padding: 3rem;
+}
+
+.header__dropdown-icon ion-icon {
+  color: #f1a17c;
+  font-size: 40px;
+}
