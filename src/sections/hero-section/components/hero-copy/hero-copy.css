@@ -1,0 +1,27 @@
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero-copy__title {
+  font-size: 20rem;
+  color: white;
+  font-family: Archivo-Bold;
+  margin-bottom: -1rem;
+}
+
+.hero-copy__tagline {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: Archivo-SemiBold;
+  color: rgb(146, 144, 144);
+}
+
+.hero-copy__source {
+  font-size: 1.5rem;
+  font-family: Archivo-Regular;
+  line-height: 1.8;
+  color: rgb(146, 144, 144);
+}
