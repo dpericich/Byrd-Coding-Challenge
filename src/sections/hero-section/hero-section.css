@@ -1,0 +1,18 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(241, 236, 231);
+}
+
+.drone-image {
+  width: 40rem;
+  padding-top: 6rem;
+}
+
+.drone-shadow {
+  width: 34rem;
+  margin-bottom: -18rem;
+}
