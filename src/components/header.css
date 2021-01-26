@@ -1,14 +1,14 @@
 .header {
   display: flex;
   flex-direction: row;
+  flex: 0 0 auto;
   justify-content: space-between;
-  justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .header__logo {
-  width: 22rem;
-  margin: 0 50rem;
+  width: 24rem;
 }
 
 ion-icon {
@@ -17,7 +17,44 @@ ion-icon {
   padding: 3rem;
 }
 
+ion-icon:hover,
+ion-icon:active {
+  color: #f1a17c;
+}
+
 .header__dropdown-icon ion-icon {
   color: #f1a17c;
   font-size: 40px;
+}
+
+.header__dropdown-icon ion-icon:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+  .header__social-icons {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .header__dropdown-icon {
+    position: absolute;
+    top: -0.5rem;
+    right: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__logo {
+    width: 16rem;
+  }
+
+  .header__dropdown-icon {
+    top: -2rem;
+    right: -0.5rem;
+  }
 }

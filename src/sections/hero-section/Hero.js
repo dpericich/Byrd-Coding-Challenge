@@ -9,6 +9,9 @@ const Hero = () => {
   return (
     <div className="hero-section">
       <HeroHeader />
+      <div className="header__dropdown-icon header__menu-icon">
+        <ion-icon name="reorder-two-outline"></ion-icon>
+      </div>
       <img src={Drone} alt="drone" className="drone-image" />
       <img src={Shadow} alt="drone shadow" className="drone-shadow" />
       <HeroCopy />

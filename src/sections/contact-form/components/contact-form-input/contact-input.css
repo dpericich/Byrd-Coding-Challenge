@@ -1,6 +1,6 @@
 .contact-input {
   width: 40%;
-  margin: 10rem 0 -10rem;
+  margin: 16rem 0 -10rem;
 }
 form {
   display: flex;
@@ -32,4 +32,11 @@ textarea {
 textarea {
   resize: none;
   padding-bottom: 7rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-input {
+    width: 100%;
+    margin-top: 0rem;
+  }
 }

@@ -3,8 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: rgb(241, 236, 231);
+  flex: 0 0 auto;
+  padding: 6rem 0 6rem;
+  background-color: #f4f1ed;
+  overflow: hidden;
+  position: relative;
+}
+.header__menu-icon {
+  display: none;
 }
 
 .drone-image {
@@ -15,4 +21,18 @@
 .drone-shadow {
   width: 34rem;
   margin-bottom: -18rem;
+}
+
+@media screen and (max-width: 900px) {
+  .drone-image {
+    padding-top: 10rem;
+  }
+
+  .drone-shadow {
+    padding-bottom: 3rem;
+  }
+
+  .header__menu-icon {
+    display: block;
+  }
 }

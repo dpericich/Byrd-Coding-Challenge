@@ -4,7 +4,8 @@
   flex: 0 0 auto;
   /* justify-content: space-around; */
   align-items: center;
-  padding: 2.5rem 3rem 30rem;
+  padding: 1rem 3rem 30rem;
+  position: relative;
 }
 
 .contact-form__logo {
