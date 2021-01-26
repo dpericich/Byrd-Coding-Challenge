@@ -1,0 +1,51 @@
+/* CSS Reset */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Load In all Fonts */
+@font-face {
+  font-family: "Archivo-Bold";
+  src: local("Archivo-Bold"), url(../fonts/Archivo-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-BoldItalic";
+  src: local("Archivo-BoldItalic"),
+    url(../fonts/Archivo-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-Italic";
+  src: local("Archivo-Italic"),
+    url(../fonts/Archivo-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-Medium";
+  src: local("Archivo-Medium"),
+    url(../fonts/Archivo-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-MediumItalic";
+  src: local("Archivo-MediumItalic"),
+    url(../fonts/Archivo-MediumItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-Regular";
+  src: local("Archivo-Regular"),
+    url(../fonts/Archivo-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-SemiBold";
+  src: local("Archivo-SemiBold"),
+    url(../fonts/Archivo-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo-SemiBoldItalic";
+  src: local("Archivo-SemiBoldItalic"),
+    url(../fonts/Archivo-SemiBoldItalic.ttf) format("truetype");
+}
