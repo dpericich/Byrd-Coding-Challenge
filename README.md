@@ -2,7 +2,7 @@
 
 Creating sections from Byrd drone landing page in React using only HTML, CSS and JS.
 
-![Hero Section](.src/assets/hero-section.JPG?raw=true "Hero Section")
+![Hero Section](hero-section.JPG "Hero Section")
 
 Each seperate section is its own feature branch. I completed both the Hero page and Contact Form page with responsive design to match the layouts provided. (All colors are exact copies of the layouts, but the Contact Form backgroudnd is white instead of the given color to help seperate it from the Hero section which shares the same background color).
 
