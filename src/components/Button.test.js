@@ -18,4 +18,12 @@ describe("<Button />", () => {
 
     expect(toJSON(component)).toMatchSnapshot();
   });
+  test("button click should trigger form validation", () => {
+    const confirmSubmitForm = jest.fn();
+    const component = shallow(<Button confirmSubmitForm={confirmSubmitForm} />);
+
+    component.find("div.button").simulate("click");
+
+    expect(confirmSubmitForm).toHaveBeenCalled();
+  });
 });

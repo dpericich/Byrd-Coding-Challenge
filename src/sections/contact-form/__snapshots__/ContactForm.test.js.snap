@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactForm /> it renders the contact form 1`] = `
+<div
+  className="contact-form-section"
+>
+  <Header
+    color="orange"
+  />
+  <ContactInput
+    confirmSubmitForm={[Function]}
+    email=""
+    message=""
+    name=""
+    updateEmail={[Function]}
+    updateMessage={[Function]}
+    updateName={[Function]}
+  />
+</div>
+`;
