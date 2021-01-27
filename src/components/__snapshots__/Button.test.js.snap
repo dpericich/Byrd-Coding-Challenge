@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> it should render button with correct string text and color 1`] = `
+<div
+  className="button btn-orange"
+>
+  Submit
+</div>
+`;
+
+exports[`<Button /> it should render correctly 1`] = `
+<div
+  className="button "
+/>
+`;

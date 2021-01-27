@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> it renders the header 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__social-icons"
+  >
+    <ion-icon
+      name="logo-facebook"
+    />
+    <ion-icon
+      name="logo-twitter"
+    />
+  </div>
+  <img
+    alt="logo for header"
+    className="header__logo"
+    src="logo-white.png"
+  />
+  <div
+    className="header__dropdown-icon"
+  >
+    <ion-icon
+      name="reorder-two-outline"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Header /> it renders with logo color argument prop 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__social-icons"
+  >
+    <ion-icon
+      name="logo-facebook"
+    />
+    <ion-icon
+      name="logo-twitter"
+    />
+  </div>
+  <img
+    alt="logo for header"
+    className="header__logo"
+    src="logo-main.png"
+  />
+  <div
+    className="header__dropdown-icon"
+  >
+    <ion-icon
+      name="reorder-two-outline"
+    />
+  </div>
+</div>
+`;
